@@ -445,7 +445,6 @@ body {
 }
 .foot-social-links {
   width: 30%;
-  padding: 1% 0%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -754,9 +753,8 @@ body {
 
 .foot-social-links {
   width: 100%;
-  padding: 4% 0%;
+  margin: 0px;
   flex-wrap: wrap;
-  margin-top: 12%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -785,4 +783,40 @@ body {
 }
 .team-details:hover {
   transform: scale(1.1);
+}
+#foot-section {
+  width: 100%;
+  height: fit-content;
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 8%;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.foot-social-links {
+  width: 30%;
+  padding: 1% 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.foot-end {
+  padding: 0% 3%;
+}
+
+.foot-end > p {
+  color: #fff;
+  font-family: var(--sec-font);
+  font-size: 1.1rem;
+  word-spacing: 3px;
 }
