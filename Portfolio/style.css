@@ -1,0 +1,240 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: fit-content;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.invisible-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-item {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+.menu:hover {
+  color: black;
+}
+nav {
+  background-color: #74c69d;
+  padding: 2% 8%;
+}
+
+@media (min-width: 200px) and (max-width: 900px) {
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    align-content: baseline;
+    width: 100%;
+  }
+
+  /* Nav Links  */
+  .logo > img {
+    width: 60%;
+  }
+
+  .invisible-right-nav-item {
+    display: none;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 900px) and (max-width: 2000px) {
+  .visible-nav {
+    display: none;
+  }
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  background-color: aqua;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* nav bar complete */
+section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 8%;
+}
+
+.img {
+  width: 38%;
+}
+.images {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: baseline;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+* {
+  box-sizing: border-box;
+}
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 2% 8%;
+}
+/* Portfolio Image Wrapper  */
+.images {
+  /* border:  2px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: first baseline;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.images > img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 48%;
+}
+
+/*  */
+@media (min-width: 200px) and (max-width: 400px) {
+  .portfolio-sec1-content {
+    margin-top: 4%;
+  }
+  /* portfolio Header  */
+  article {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .portfolio-sec1-header > span {
+    font-size: 1.1rem;
+  }
+
+  .portfolio-sec1-header > h3 {
+    font-size: 1.5rem;
+  }
+  .portfolio-sec1-header > P {
+    font-size: 1.3rem;
+  }
+
+  /* Portfolio Image Wrapper  */
+  .img {
+    width: 100%;
+  }
+}
+#foot-section {
+  width: 100%;
+  height: fit-content;
+  background-color: #74c69d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 8%;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.foot-social-links {
+  width: 30%;
+  padding: 1% 0%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Foot End Para  */
+.foot-end {
+  padding: 0% 3%;
+}
+
+.foot-end > p {
+  color: #fff;
+  font-family: var(--sec-font);
+  font-size: 1.1rem;
+  word-spacing: 3px;
+}
+.button {
+  background-color: black;
+  color: #fff;
+  padding: 17px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.button > a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.hnover:hover {
+  transform: scale(1.5);
+}
+.images > img:hover {
+  transform: scale(1.3);
+}
